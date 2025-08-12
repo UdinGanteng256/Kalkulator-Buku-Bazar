@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Harga Buku Sekolah</title>
+    <link rel="stylesheet" href="Buku.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List Harga Buku</h1>
+        
+        <div class="form-group">
+            <label for="class-select">Pilih Kelas:</label>
+            <select id="class-select">
+                <option value="">-- Pilih Kelas --</option>
+                <option value="10">Kelas 10</option>
+                <option value="11">Kelas 11</option>
+                <option value="12">Kelas 12</option>
+            </select>
+        </div>
+        
+        <div id="book-list-container" class="book-list" style="display: none;">
+            <h3>Daftar Buku</h3>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Cari buku...">
+                <span class="search-icon">🔍</span>
+            </div>
+            
+            <div id="book-list"></div>
+            <div id="no-results" class="no-results" style="display: none;">Tidak ada buku yang sesuai dengan pencarian</div>
+            
+            <div class="action-buttons">
+                <button id="select-all-btn" class="select-all-btn">Pilih Semua</button>
+                <button id="reset-btn" class="reset-btn">Reset Pilihan</button>
+            </div>
+        </div>
+        
+        <button id="calculate-btn" style="display: none; width: 100%;">Hitung Total Harga</button>
+        
+        <div id="result" class="result">
+            <h3>Rincian Pembelian</h3>
+            <div id="selected-books"></div>
+            <p>Total yang harus dibayar: <span id="total-price" class="total-price">Rp 0</span></p>
+        </div>
+    </div>
+
+    <script src="Buku.js"></script>
+</body>
+</html>
