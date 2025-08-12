@@ -1,0 +1,5 @@
+<script>start("/Users/muhammadpathihbataviant/Documents/Algoritma/Semster1/Bazar/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("Buku.css","Buku.css",0,2547,"2.5 kB",1754975236,"12/08/25, 12.07.16");</script>
+<script>addRow("Buku.html","Buku.html",0,1891,"1.8 kB",1754976085,"12/08/25, 12.21.25");</script>
+<script>addRow("Buku.js","Buku.js",0,10048,"9.8 kB",1754976169,"12/08/25, 12.22.49");</script>
